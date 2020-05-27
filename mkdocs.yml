@@ -1,12 +1,12 @@
 # Basic project details.
-site_name: 'Synthetix System Documentation'
-site_description: 'Decentralised Synthetic Assets'
-site_author: 'Synthetix Team'
+site_name: 'FinNexus Documentation'
+site_description: 'Decentralised Protocol Clusters'
+site_author: 'FinNexus Team'
 site_url: ''
 
 # Links to the core Synthetix smart contract repository.
-repo_name: 'synthetixio/synthetix'
-repo_url: 'https://github.com/synthetixio/synthetix'
+repo_name: 'FinNexus'
+repo_url: 'https://github.com/FinNexus'
 
 # Setting `edit_uri` to an empty string disables the edit button, which points to the wrong page.
 # If at some point this documentation is moved into the core synthetix repository, then this can be
@@ -15,98 +15,23 @@ edit_uri: ''
 
 docs_dir: 'content'
 
-# This copyright notice will be rendered in the footer.
-copyright: '<a href=https://github.com/Synthetixio/synthetix/blob/master/LICENSE>Copyright &copy Synthetix 2018 - 2020</a>'
+# # This copyright notice will be rendered in the footer.
+# copyright: '<a href=https://github.com/Synthetixio/synthetix/blob/master/LICENSE>Copyright &copy Synthetix 2018 - 2020</a>'
 
 # Top level headings become tabs at the top due to `tabs: true` in the theme.
 nav:
-  - System Overview:
-      - Home: index.md
-      - Synopsis: synopsis.md
-      - Incentives: incentives.md
-      - Governance: governance.md
-  - Litepaper:
-      - Home: litepaper/index.md
-      - Korean: litepaper/korean.md
-      - Russian: litepaper/russian.md
-      - Chinese: litepaper/chinese.md
-  - Addresses:
-      - '': addresses.md
-  - Releases:
-      - '': releases.md
-  - Tokens:
-      - '': tokens.md
-  - Integrations:
-      - Home: integrations/index.md
-      - Integration Guide: integrations/guide.md
-      - Working with Testnets: integrations/testnets.md
-      - ENS Support: integrations/ens.md
-  - Historical Data:
-      - '': historical-data.md
-  - Libraries:
-      - Home: libraries/index.md
-      - Versioning: libraries/versioning.md
-      - Examples: libraries/examples.md
-      - synthetix: libraries/synthetix.md
-      - synthetix-js: libraries/synthetix-js.md
-      - synthetix-data: libraries/synthetix-data.md
-  - Smart Contracts:
-      - Architecture: contracts/index.md
-      - Automated Testing: contracts/testing.md
-      - Publisher: contracts/publisher.md
-      - Transaction Guide: contracts/transactions.md
-      - Libraries:
-          - Math: contracts/Math.md
-          - SafeDecimalMath: contracts/SafeDecimalMath.md
-          - SafeMath: contracts/SafeMath.md
-      - Walkthrus:
-          - Overview: contracts/walkthrus/index.md
-          - Claiming Rewards: contracts/walkthrus/claiming.md
-          - Delegating: contracts/walkthrus/delegating.md
-          - 'Depot: ETH/sUSD': contracts/walkthrus/depot.md
-          - Staking SNX: contracts/walkthrus/staking.md
-          - Trading: contracts/walkthrus/trading.md
-          - Trading Settlement: contracts/walkthrus/settlement.md
-          - Unstaking SNX: contracts/walkthrus/unstaking.md
-      - Contracts:
-          - AddressResolver: contracts/AddressResolver.md
-          - DelegateApprovals: contracts/DelegateApprovals.md
-          - Depot: contracts/Depot.md
-          - EscrowChecker: contracts/EscrowChecker.md
-          - EternalStorage: contracts/EternalStorage.md
-          - EtherCollateral: contracts/EtherCollateral.md
-          - Exchanger: contracts/Exchanger.md
-          - ExchangeRates: contracts/ExchangeRates.md
-          - ExchangeState: contracts/ExchangeState.md
-          - ExternStateToken: contracts/ExternStateToken.md
-          - FeePool: contracts/FeePool.md
-          - FeePoolEternalStorage: contracts/FeePoolEternalStorage.md
-          - FeePoolState: contracts/FeePoolState.md
-          - IssuanceEternalStorage: contracts/IssuanceEternalStorage.md
-          - Issuer: contracts/Issuer.md
-          - LimitedSetup: contracts/LimitedSetup.md
-          - Migrations: contracts/Migrations.md
-          - MixinResolver: contracts/MixinResolver.md
-          - MultiCollateralSynth: contracts/MultiCollateralSynth.md
-          - Owned: contracts/Owned.md
-          - Pausable: contracts/Pausable.md
-          - Proxy: contracts/Proxy.md
-          - Proxyable: contracts/Proxyable.md
-          - ProxyERC20: contracts/ProxyERC20.md
-          - PurgeableSynth: contracts/PurgeableSynth.md
-          - RewardEscrow: contracts/RewardEscrow.md
-          - RewardsDistribution: contracts/RewardsDistribution.md
-          - RewardsDistributionRecipient: contracts/RewardsDistributionRecipient.md
-          - SelfDestructible: contracts/SelfDestructible.md
-          - State: contracts/State.md
-          - SupplySchedule: contracts/SupplySchedule.md
-          - Synth: contracts/Synth.md
-          - Synthetix: contracts/Synthetix.md
-          - SynthetixEscrow: contracts/SynthetixEscrow.md
-          - SynthetixState: contracts/SynthetixState.md
-          - SystemStatus: contracts/SystemStatus.md
-          - TokenState: contracts/TokenState.md
-      - Audit History: contracts/audits.md
+  - Get Started:
+      - '': index.md
+  - Whitepaper:
+      - English: whitepaper/index.md
+      - Chinese: whitepaper/chinese.md
+  - Community:
+      - '': community/index.md
+  - Products:
+      - '': products/index.md
+  - FAQs:
+      - '': faqs.md
+ 
 
 # These social links will be rendered as icons in the footer, as long as the type corresponds to FontAwesome glyph.
 extra:
@@ -127,9 +52,9 @@ theme:
   name: 'material'
   language: 'en'
   palette:
-    primary: 'black'
-    accent: 'indigo'
-  logo: 'img/logos/synthetix_logo.svg'
+    primary: 'indigo'
+    accent: 'deep purple'
+  logo: 'img/logos/square.png'
   favicon: 'img/favicon.ico'
   feature:
     tabs: true
@@ -165,6 +90,6 @@ markdown_extensions:
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-  - 'js/sectionSeparators.js'
+  # - 'js/sectionSeparators.js'
 
 extra_css: [extra.css]
