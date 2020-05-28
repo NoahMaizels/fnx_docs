@@ -23,8 +23,8 @@ nav:
   - Get Started:
       - '': index.md
   - Whitepaper:
-      - English: whitepaper/index.md
-      - Chinese: whitepaper/chinese.md
+      - Whitepaper (EN): whitepaper/index.md
+      - Whitepaper (CN): whitepaper/chinese.md
   - Community:
       - '': community/index.md
   - Products:
@@ -32,7 +32,6 @@ nav:
   - FAQs:
       - '': faqs.md
  
-
 # These social links will be rendered as icons in the footer, as long as the type corresponds to FontAwesome glyph.
 extra:
   social:
@@ -90,6 +89,6 @@ markdown_extensions:
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-  # - 'js/sectionSeparators.js'
+  - 'js/sectionSeparators.js'
 
 extra_css: [extra.css]
