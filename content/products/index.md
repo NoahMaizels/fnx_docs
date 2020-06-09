@@ -6,6 +6,9 @@ Wandora Box is a fun crypto price prediction game built on Wanchain. Wandora Box
 ## No-Loss Lottery Game
 More details coming soon!
 
+## Decentralized Crypto Options
+More details coming soon!
+
 ## Blockchain Based Synthetic Assets
 More details coming soon!
 
