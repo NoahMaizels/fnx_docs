@@ -4,19 +4,17 @@ site_description: 'Decentralised Protocol Clusters'
 site_author: 'FinNexus Team'
 site_url: ''
 
-# Links to the core Synthetix smart contract repository.
+# Links to the core FinNexus smart contract repository.
 repo_name: 'FinNexus'
 repo_url: 'https://github.com/FinNexus'
 
 # Setting `edit_uri` to an empty string disables the edit button, which points to the wrong page.
-# If at some point this documentation is moved into the core synthetix repository, then this can be
+# If at some point this documentation is moved into the core  repository, then this can be
 # removed.
 edit_uri: ''
 
 docs_dir: 'content'
 
-# # This copyright notice will be rendered in the footer.
-# copyright: '<a href=https://github.com/Synthetixio/synthetix/blob/master/LICENSE>Copyright &copy Synthetix 2018 - 2020</a>'
 
 # Top level headings become tabs at the top due to `tabs: true` in the theme.
 nav:
@@ -35,15 +33,13 @@ nav:
 extra:
   social:
     - icon: 'brands/github'
-      link: 'https://github.com/synthetixio'
+      link: 'https://github.com/FinNexus'
     - icon: 'brands/twitter'
-      link: 'https://twitter.com/synthetix_io'
-    - icon: 'brands/discord'
-      link: 'https://discordapp.com/channels/413890591840272394/'
+      link: 'https://twitter.com/fin_nexus'
     - icon: 'brands/reddit'
-      link: 'https://www.reddit.com/r/synthetix_io/'
+      link: 'https://www.reddit.com/r/finnexus/'
     - icon: 'brands/medium'
-      link: 'https://blog.synthetix.io'
+      link: 'https://medium.com/finnexus/'
 
 # This set of documentation uses the MkDocs Material theme by squidfunk: https://github.com/squidfunk/mkdocs-material
 theme:
@@ -83,8 +79,8 @@ markdown_extensions:
       repo_url_shortener: true
       repo_url_shorthand: true
       social_url_shorthand: true
-      user: 'synthetixio'
-      repo: 'synthetix'
+      user: 'noahniuwa'
+      repo: 'fnx_docs'
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
