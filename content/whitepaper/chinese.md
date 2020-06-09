@@ -1,1 +1,0 @@
-# Chinese Whitepaper Coming Soon
